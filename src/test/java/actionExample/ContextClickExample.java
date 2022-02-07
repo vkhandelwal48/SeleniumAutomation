@@ -58,6 +58,5 @@ public class ContextClickExample {
 	String alertText = driver.switchTo().alert().getText();
 	Assert.assertEquals(alertText, "clicked: delete");
 	driver.switchTo().alert().accept();
-driver.switchTo().alert().accept();
 	}
 }
