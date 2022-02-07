@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28529" started-at="2022-02-07T15:48:54 IST" finished-at="2022-02-07T15:49:22 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="28529" started-at="2022-02-07T15:48:54 IST" finished-at="2022-02-07T15:49:22 IST">
+      <class name="dataDrivenTestExample.LoginWithInvalidUser">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:dataDrivenTestExample.LoginWithInvalidUser@e52dcd]" name="launchApp" is-config="true" duration-ms="5603" started-at="2022-02-07T15:48:54 IST" finished-at="2022-02-07T15:49:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTestExample.LoginWithInvalidUser@e52dcd]" name="verifyLogin" duration-ms="6838" started-at="2022-02-07T15:49:00 IST" data-provider="db" finished-at="2022-02-07T15:49:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahul1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTestExample.LoginWithInvalidUser@e52dcd]" name="verifyLogin" duration-ms="6470" started-at="2022-02-07T15:49:06 IST" data-provider="db" finished-at="2022-02-07T15:49:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sahil1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTestExample.LoginWithInvalidUser@e52dcd]" name="verifyLogin" duration-ms="6516" started-at="2022-02-07T15:49:13 IST" data-provider="db" finished-at="2022-02-07T15:49:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abhishek1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:dataDrivenTestExample.LoginWithInvalidUser@e52dcd]" name="closeApp" is-config="true" duration-ms="3066" started-at="2022-02-07T15:49:19 IST" finished-at="2022-02-07T15:49:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- dataDrivenTestExample.LoginWithInvalidUser -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
