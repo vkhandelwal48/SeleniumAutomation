@@ -22,7 +22,7 @@ public class AlertExampleDemo {
 	WebDriverManager.chromedriver().setup();
 	driver = new ChromeDriver();
 	driver.manage().window().maximize();
-	driver.get("http://only-testing-blog.blogspot.com/2014/01/textbox.html")
+	driver.get("http://only-testing-blog.blogspot.com/2014/01/textbox.html");
 
 
 	}
