@@ -56,7 +56,7 @@ public class DragDropTest {
 
 
 	//Method2
-	act.clickAndHold(source).moveToElement(target).release().build().perform();
+	act.clickAndHold(source).moveToElement(target).release().build().perform()
 
 
 
